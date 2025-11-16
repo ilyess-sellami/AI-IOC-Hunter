@@ -2,33 +2,33 @@
     "example.txt": {
         "IP": [
             "192.168.1.100",
-            "1",
-            "203.0.113.50",
+            "198.51.100.23",
             "-",
-            "198.51.100.23"
+            "1",
+            "203.0.113.50"
         ],
         "EMAIL": [
-            "attacker@malicious.org",
             "scammer@fake.com",
-            "fraudster@example.com"
+            "fraudster@example.com",
+            "attacker@malicious.org"
         ],
         "DOMAIN": [
-            "a54d88e06612d820bc3be72877c74f257b561b19",
-            "phishing-site.net",
-            "203.0.113.50",
             "evil.com",
-            "fraudster@example.com"
+            "phishing-site.net",
+            "fraudster@example.com",
+            "a54d88e06612d820bc3be72877c74f257b561b19",
+            "203.0.113.50"
         ],
         "URL": [
+            "http://evil.com/download/malware",
             "hxxp://bad.example.org/stealinfo",
-            "https://phishing-site.net/login",
             "http://badfile.example.net/malware.exe",
-            "http://evil.com/download/malware"
+            "https://phishing-site.net/login"
         ],
         "HASH": [
+            "9f86d081884c7d659a2feaa0c55ad015",
             "e99a18c428cb38d5f260853678922e03",
-            "a54d88e06612d820bc3be72877c74f257b561b19",
-            "9f86d081884c7d659a2feaa0c55ad015"
+            "a54d88e06612d820bc3be72877c74f257b561b19"
         ]
     }
 }
