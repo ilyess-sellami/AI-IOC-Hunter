@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Suspicious IP 10.0.0.5 tried to connect to phishing-site.net and download malware hash e99a18c428cb38d5f260853678922e03",
+        "entities": [[15, 21, "IP"], [36, 54, "DOMAIN"], [65, 97, "HASH"]]
+    },
+    {
+        "text": "Phishing email sent from attacker@evilmail.com with link http://malicious.example.org/login",
+        "entities": [[30, 49, "EMAIL"], [60, 96, "URL"]]
+    },
+    {
+        "text": "Malware hash a54d88e06612d820bc3be72877c74f257b561b19 found in downloaded file from http://badfile.example.net/malware.exe",
+        "entities": [[13, 53, "HASH"], [75, 116, "URL"]]
+    },
+    {
+        "text": "IP 172.16.0.2 scanned compromised.example.org and tried brute force",
+        "entities": [[3, 14, "IP"], [22, 44, "DOMAIN"]]
+    }
+]

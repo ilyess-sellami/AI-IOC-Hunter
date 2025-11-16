@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Email scammer@fake.org sent malicious URL hxxps://evil-site.com/download to target",
+        "entities": [[6, 22, "EMAIL"], [34, 66, "URL"]]
+    },
+    {
+        "text": "Observed IP 198.51.100.25 scanning network and contacting attacker-domain.com",
+        "entities": [[12, 24, "IP"], [61, 82, "DOMAIN"]]
+    },
+    {
+        "text": "Downloaded malware hash 9f86d081884c7d659a2feaa0c55ad015 from http://malware.example.net/file",
+        "entities": [[21, 53, "HASH"], [59, 97, "URL"]]
+    },
+    {
+        "text": "Suspicious email victim@phishingsite.net with link http://phishing-site.net/login detected",
+        "entities": [[17, 42, "EMAIL"], [52, 87, "URL"]]
+    }
+]

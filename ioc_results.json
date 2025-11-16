@@ -1,0 +1,31 @@
+{
+    "example.txt": {
+        "HASH": [
+            "1",
+            "4",
+            "3",
+            "2",
+            "e99a18c428cb38d5f260853678922e03"
+        ],
+        "EMAIL": [
+            "URLs",
+            "6",
+            "fraudster@example.com",
+            "attacker@malicious.org",
+            "scammer@fake.com"
+        ],
+        "DOMAIN": [
+            "evil.com",
+            "malware.exe",
+            "203.0.113.50",
+            "compromised.example.org"
+        ],
+        "IP": [
+            "198.51.100.23",
+            "192.168.1.100"
+        ],
+        "URL": [
+            "http://badfile.example.net/malware.exe"
+        ]
+    }
+}

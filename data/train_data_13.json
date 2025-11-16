@@ -1,0 +1,18 @@
+[
+    {
+        "text": "IP 203.0.113.5 attempted login to compromised.example.org and uploaded hash a3f5e3c4b2d1e6f7c8a9b0d1e2f3a4b5",
+        "entities": [[3, 14, "IP"], [28, 50, "DOMAIN"], [63, 99, "HASH"]]
+    },
+    {
+        "text": "Malicious URL http://dangerous-site.com/steal was blocked after attack from hacker@danger.com",
+        "entities": [[15, 51, "URL"], [73, 92, "EMAIL"]]
+    },
+    {
+        "text": "Observed IP 8.8.8.8 sending spam to compromised-domain.com and downloading hash f2ca1bb6c7e907d06dafe4687e579fce",
+        "entities": [[12, 19, "IP"], [32, 53, "DOMAIN"], [71, 103, "HASH"]]
+    },
+    {
+        "text": "Suspicious email admin@danger.org accessed URL http://evil.org/download/malware",
+        "entities": [[18, 36, "EMAIL"], [46, 83, "URL"]]
+    }
+]

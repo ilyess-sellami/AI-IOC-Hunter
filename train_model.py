@@ -23,8 +23,8 @@ print(f"Loaded {len(TRAIN_DATA)} training examples from {len(data_files)} files"
 df = pd.DataFrame({"text": [t[0] for t in TRAIN_DATA]})
 print(df.head())
 
-# --- Step 2: Create blank English model ---
-nlp = spacy.blank("en")
+# --- Step 2: # Load pretrained English model ---
+nlp = spacy.load("en_core_web_sm")
 
 # Add NER pipeline
 if "ner" not in nlp.pipe_names:
