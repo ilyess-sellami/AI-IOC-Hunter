@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Phishing emails sent from multiple attackers: badguy1@evil.com, badguy2@evil.com, URL hxxp://malware.com/download",
+    "entities": [[38, 54, "EMAIL"], [56, 72, "EMAIL"], [79, 108, "URL"]]
+  },
+  {
+    "text": "Observed malware hash 5ebe2294ecd0e0f08eab7690d2a6ee69 on domain badsite.net",
+    "entities": [[18, 50, "HASH"], [58, 68, "DOMAIN"]]
+  },
+  {
+    "text": "Suspicious IP 8.8.8.8 tried to access admin portal admin.example.com",
+    "entities": [[14, 21, "IP"], [44, 63, "DOMAIN"]]
+  },
+  {
+    "text": "Email attacker@tricky.org sent phishing link hxxps://evil.org/login to multiple victims",
+    "entities": [[6, 25, "EMAIL"], [43, 64, "URL"]]
+  },
+  {
+    "text": "Malware hash abcdefabcdefabcdefabcdefabcdefab detected from URL http://dangerous.net/file.exe",
+    "entities": [[13, 49, "HASH"], [60, 85, "URL"]]
+  },
+  {
+    "text": "Multiple domains observed in phishing attempt: evil.com, bad.com, dangerous.net",
+    "entities": [[47, 55, "DOMAIN"], [57, 64, "DOMAIN"], [66, 80, "DOMAIN"]]
+  },
+  {
+    "text": "IP 10.10.10.15 used in attack along with URL http://evil.org/attack",
+    "entities": [[3, 13, "IP"], [41, 63, "URL"]]
+  },
+  {
+    "text": "Compromised email user@compromised.org linked to hash d41d8cd98f00b204e9800998ecf8427e",
+    "entities": [[18, 42, "EMAIL"], [50, 82, "HASH"]]
+  },
+  {
+    "text": "Suspicious URL hxxps://malicious-domain.net/downloaded_file.exe reported",
+    "entities": [[16, 58, "URL"]]
+  },
+  {
+    "text": "Observed phishing emails: attacker@evil.net, victim@danger.org targeting internal.net",
+    "entities": [[26, 42, "EMAIL"], [44, 61, "EMAIL"], [71, 83, "DOMAIN"]]
+  }
+]

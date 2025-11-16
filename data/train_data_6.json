@@ -1,0 +1,42 @@
+[
+  {
+    "text": "IP 192.168.1.100 tried to contact evil.com",
+    "entities": [[3, 15, "IP"], [32, 40, "DOMAIN"]]
+  },
+  {
+    "text": "Email admin@danger.org sent suspicious attachment",
+    "entities": [[6, 24, "EMAIL"]]
+  },
+  {
+    "text": "Downloaded malware from URL http://malicious.org/file.exe",
+    "entities": [[29, 63, "URL"]]
+  },
+  {
+    "text": "Malware hash e99a18c428cb38d5f260853678922e03 observed",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Suspicious domain evil.com contacted internal network",
+    "entities": [[21, 29, "DOMAIN"]]
+  },
+  {
+    "text": "Phishing email scammer@fake.com caught by filter",
+    "entities": [[23, 41, "EMAIL"]]
+  },
+  {
+    "text": "IP 172.16.0.5 attempted unauthorized access",
+    "entities": [[3, 13, "IP"]]
+  },
+  {
+    "text": "Malicious URL http://badsite.com/malware hosted",
+    "entities": [[14, 46, "URL"]]
+  },
+  {
+    "text": "Suspicious email victim@malicious.net reported",
+    "entities": [[18, 38, "EMAIL"]]
+  },
+  {
+    "text": "Malware hash 5f4dcc3b5aa765d61d8327deb882cf99 found in attachment",
+    "entities": [[13, 45, "HASH"]]
+  }
+]

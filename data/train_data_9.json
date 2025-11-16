@@ -1,0 +1,42 @@
+[
+  {
+    "text": "IP 198.51.100.10 attempted brute force attack on admin portal admin.internal.net",
+    "entities": [[3, 15, "IP"], [52, 72, "DOMAIN"]]
+  },
+  {
+    "text": "Email phishing alert from user@weird-domain.biz with attachment hash d41d8cd98f00b204e9800998ecf8427e",
+    "entities": [[28, 50, "EMAIL"], [70, 102, "HASH"]]
+  },
+  {
+    "text": "Malware downloaded via URL http://dangerous-site.com/path/to/file.exe on victim machine",
+    "entities": [[29, 74, "URL"]]
+  },
+  {
+    "text": "Multiple IPs observed in scan: 10.0.0.1, 10.0.0.2, 10.0.0.3 targeting evil.net",
+    "entities": [[28, 37, "IP"], [39, 48, "IP"], [50, 59, "IP"], [68, 76, "DOMAIN"]]
+  },
+  {
+    "text": "Suspicious URL hxxp://malware-host.org/downloaded_file.zip detected in system",
+    "entities": [[17, 55, "URL"]]
+  },
+  {
+    "text": "Emails compromised: victim1@phish.com, victim2@phish.com, hashes affected: 098f6bcd4621d373cade4e832627b4f6",
+    "entities": [[18, 34, "EMAIL"], [36, 52, "EMAIL"], [76, 108, "HASH"]]
+  },
+  {
+    "text": "Observed phishing domain fake-login.net used with IP 172.16.0.10 to steal credentials",
+    "entities": [[23, 37, "DOMAIN"], [51, 61, "IP"]]
+  },
+  {
+    "text": "Email from attacker@malware-domain.org contained link hxxps://malicious.org/steal",
+    "entities": [[11, 35, "EMAIL"], [53, 81, "URL"]]
+  },
+  {
+    "text": "Malware hash 1a79a4d60de6718e8e5b326e338ae533 downloaded from URL http://infected.net/file.exe",
+    "entities": [[13, 45, "HASH"], [59, 80, "URL"]]
+  },
+  {
+    "text": "IP 192.168.0.100 attempted access to sensitive domain internal-company.net",
+    "entities": [[3, 16, "IP"], [45, 65, "DOMAIN"]]
+  }
+]

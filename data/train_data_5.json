@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Email phishing attempt from victim@malicious.org blocked",
+    "entities": [[31, 52, "EMAIL"]]
+  },
+  {
+    "text": "Malicious URL hxxps://evil.com/steal detected",
+    "entities": [[14, 38, "URL"]]
+  },
+  {
+    "text": "IP 203.0.113.5 tried to access phishing-site.com",
+    "entities": [[3, 13, "IP"], [30, 49, "DOMAIN"]]
+  },
+  {
+    "text": "Suspicious email attacker@example.org detected",
+    "entities": [[18, 38, "EMAIL"]]
+  },
+  {
+    "text": "Downloaded malware with hash 5ebe2294ecd0e0f08eab7690d2a6ee69",
+    "entities": [[28, 60, "HASH"]]
+  },
+  {
+    "text": "Observed IP 172.217.11.14 accessing domain google.com",
+    "entities": [[12, 24, "IP"], [36, 46, "DOMAIN"]]
+  },
+  {
+    "text": "Email alert from attacker@phishingsite.net blocked",
+    "entities": [[18, 44, "EMAIL"]]
+  },
+  {
+    "text": "Malware hosted at URL http://evil.org/download",
+    "entities": [[21, 45, "URL"]]
+  },
+  {
+    "text": "Suspicious URL http://malware-site.net infected system",
+    "entities": [[18, 44, "URL"]]
+  },
+  {
+    "text": "Malware hash d41d8cd98f00b204e9800998ecf8427e found",
+    "entities": [[13, 45, "HASH"]]
+  }
+]

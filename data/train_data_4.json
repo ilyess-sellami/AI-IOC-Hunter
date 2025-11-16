@@ -1,0 +1,42 @@
+[
+  {
+    "text": "IP 192.0.2.50 sent malicious traffic to victim.com",
+    "entities": [[3, 12, "IP"], [43, 54, "DOMAIN"]]
+  },
+  {
+    "text": "Received email attack@malware.com with malware attachment",
+    "entities": [[15, 35, "EMAIL"]]
+  },
+  {
+    "text": "Malware downloaded from URL http://badurl.com/file",
+    "entities": [[27, 51, "URL"]]
+  },
+  {
+    "text": "Suspicious domain evil.net trying to access server",
+    "entities": [[19, 27, "DOMAIN"]]
+  },
+  {
+    "text": "Phishing email from attacker@spam.org caught by filter",
+    "entities": [[23, 42, "EMAIL"]]
+  },
+  {
+    "text": "Malware hash e2fc714c4727ee9395f324cd2e7f331f detected",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Observed IP 8.8.8.8 sending spam to victim.com",
+    "entities": [[12, 19, "IP"], [32, 43, "DOMAIN"]]
+  },
+  {
+    "text": "Malicious URL http://dangerous-site.com hosted malware",
+    "entities": [[14, 41, "URL"]]
+  },
+  {
+    "text": "Suspicious email victim@malicious.org reported",
+    "entities": [[18, 38, "EMAIL"]]
+  },
+  {
+    "text": "IP 203.0.113.5 attempted login attack",
+    "entities": [[3, 15, "IP"]]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Malware hash e99a18c428cb38d5f260853678922e03 observed on the system",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Suspicious domain evil.com contacted internal network",
+    "entities": [[21, 29, "DOMAIN"]]
+  },
+  {
+    "text": "Email spammer@evilmail.org sent phishing link",
+    "entities": [[6, 28, "EMAIL"]]
+  },
+  {
+    "text": "IP 198.51.100.23 attempted brute force attack",
+    "entities": [[3, 15, "IP"]]
+  },
+  {
+    "text": "Downloaded malware from URL http://evil.download.com/file.exe",
+    "entities": [[29, 63, "URL"]]
+  },
+  {
+    "text": "Attacker admin@danger.com sent malicious attachment",
+    "entities": [[9, 25, "EMAIL"]]
+  },
+  {
+    "text": "Suspicious IP 203.0.113.5 accessed the server",
+    "entities": [[14, 25, "IP"]]
+  },
+  {
+    "text": "Malicious URL hxxps://badsite.com/steal-data detected",
+    "entities": [[14, 44, "URL"]]
+  },
+  {
+    "text": "Malware hash 5f4dcc3b5aa765d61d8327deb882cf99 detected",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Suspicious email attacker@example.org tried to access network",
+    "entities": [[18, 38, "EMAIL"]]
+  }
+]

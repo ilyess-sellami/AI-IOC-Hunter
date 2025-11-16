@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Suspicious IP 203.0.113.25 attempted to connect to phishing-site.net and download hxxp://malware.example.com/evil.exe",
+    "entities": [[14, 25, "IP"], [48, 66, "DOMAIN"], [77, 109, "URL"]]
+  },
+  {
+    "text": "Email scammer123@fake-domain.com sent malicious attachment with hash e99a18c428cb38d5f260853678922e03",
+    "entities": [[6, 31, "EMAIL"], [73, 105, "HASH"]]
+  },
+  {
+    "text": "Observed malware download from URL https://subdomain.badsite.org/malware.zip on internal system",
+    "entities": [[30, 74, "URL"]]
+  },
+  {
+    "text": "Multiple IPs detected: 192.168.1.1, 10.0.0.15 contacting dangerous.com",
+    "entities": [[21, 32, "IP"], [34, 43, "IP"], [54, 66, "DOMAIN"]]
+  },
+  {
+    "text": "Phishing email sent from attack@evilmail.co.uk containing URL http://evil.co.uk/login",
+    "entities": [[28, 46, "EMAIL"], [60, 81, "URL"]]
+  },
+  {
+    "text": "Malware hash 5f4dcc3b5aa765d61d8327deb882cf99 reported in spam email spammer@malicious.org",
+    "entities": [[13, 45, "HASH"], [69, 91, "EMAIL"]]
+  },
+  {
+    "text": "Observed IP 172.16.0.2 sending traffic to multiple domains: evil.com, badsite.net",
+    "entities": [[12, 22, "IP"], [55, 63, "DOMAIN"], [65, 76, "DOMAIN"]]
+  },
+  {
+    "text": "Suspicious email received from phisher@tricky-domain.net with URL hxxps://malware-download.org/file.exe",
+    "entities": [[29, 53, "EMAIL"], [59, 97, "URL"]]
+  },
+  {
+    "text": "Malware hash abcdef1234567890abcdef1234567890 found on URL http://infected-site.com/file",
+    "entities": [[13, 45, "HASH"], [55, 86, "URL"]]
+  },
+  {
+    "text": "Emails attacker1@spam.com, attacker2@spam.com used for phishing campaigns targeting internal.com",
+    "entities": [[7, 24, "EMAIL"], [26, 43, "EMAIL"], [79, 91, "DOMAIN"]]
+  }
+]

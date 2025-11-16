@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Observed IP 8.8.4.4 sending malicious traffic to evil.org",
+    "entities": [[12, 19, "IP"], [46, 54, "DOMAIN"]]
+  },
+  {
+    "text": "Email alert from attacker@malware.net detected",
+    "entities": [[18, 38, "EMAIL"]]
+  },
+  {
+    "text": "Downloaded malware from URL http://dangerous.com/file",
+    "entities": [[29, 59, "URL"]]
+  },
+  {
+    "text": "Malware hash e2fc714c4727ee9395f324cd2e7f331f detected",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Suspicious domain evil.net attempted unauthorized access",
+    "entities": [[19, 27, "DOMAIN"]]
+  },
+  {
+    "text": "Phishing email fraudster@fakeemail.com received",
+    "entities": [[24, 47, "EMAIL"]]
+  },
+  {
+    "text": "IP 10.10.10.10 attempted brute force attack",
+    "entities": [[3, 13, "IP"]]
+  },
+  {
+    "text": "Malicious URL hxxp://evil.com/download blocked",
+    "entities": [[14, 41, "URL"]]
+  },
+  {
+    "text": "Observed malware hash 098f6bcd4621d373cade4e832627b4f6 in system",
+    "entities": [[15, 47, "HASH"]]
+  },
+  {
+    "text": "Suspicious email admin@phishing.com sent to multiple users",
+    "entities": [[18, 38, "EMAIL"]]
+  }
+]

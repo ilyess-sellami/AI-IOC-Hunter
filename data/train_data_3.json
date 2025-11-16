@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Suspicious IP 10.0.0.5 contacted internal database",
+    "entities": [[14, 21, "IP"]]
+  },
+  {
+    "text": "User received phishing email from fraudster@fakeemail.com",
+    "entities": [[31, 52, "EMAIL"]]
+  },
+  {
+    "text": "Downloaded malware from URL http://malicious-site.com/download",
+    "entities": [[29, 63, "URL"]]
+  },
+  {
+    "text": "Malware hash d41d8cd98f00b204e9800998ecf8427e found in attachment",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Domain evil.org attempted unauthorized access",
+    "entities": [[7, 15, "DOMAIN"]]
+  },
+  {
+    "text": "Email hacker@danger.net sent suspicious link",
+    "entities": [[6, 22, "EMAIL"]]
+  },
+  {
+    "text": "Suspicious IP 172.16.0.2 tried to connect to internal server",
+    "entities": [[14, 24, "IP"]]
+  },
+  {
+    "text": "Malicious URL hxxp://badwebsite.com/steal blocked",
+    "entities": [[14, 41, "URL"]]
+  },
+  {
+    "text": "Observed hash 098f6bcd4621d373cade4e832627b4f6 in email attachment",
+    "entities": [[13, 45, "HASH"]]
+  },
+  {
+    "text": "Suspicious email admin@phishing.com received by user",
+    "entities": [[18, 38, "EMAIL"]]
+  }
+]
