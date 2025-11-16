@@ -10,7 +10,7 @@ import glob
 # --- Step 1: Load all training data from JSON files ---
 TRAIN_DATA = []
 
-data_files = glob.glob("data/*.json")  # automatically find all json files in data/
+data_files = glob.glob("data/*.json")
 for file in data_files:
     with open(file, "r") as f:
         raw_data = json.load(f)
