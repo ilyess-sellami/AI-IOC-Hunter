@@ -9,6 +9,7 @@ from rich.panel import Panel
 from rich.align import Align
 from extractor import extract_iocs_from_text
 from utils import read_file
+import pyfiglet
 
 app = typer.Typer(help="🔥 AI IOC Hunter - Extract IOC indicators from files or directories.")
 console = Console()
@@ -20,10 +21,17 @@ VERSION = "v1.0"
 SUBTITLE = "Extract IPs, Domains, URLs, Hashes, and Emails from files 🔥"
 
 def print_banner():
-    """Print CLI banner with app name and subtitle"""
-    banner_text = f"[bold cyan]{APP_NAME}[/bold cyan] [yellow]{VERSION}[/yellow]\n[italic]{SUBTITLE}[/italic]"
+    """Print CLI banner with ASCII app name and subtitle"""
+    # Generate ASCII art for app name
+    ascii_banner = pyfiglet.figlet_format(APP_NAME, font="slant")
+    
+    # Combine ASCII art with version and subtitle
+    banner_text = f"[bold cyan]{ascii_banner}[/bold cyan][yellow]{VERSION}[/yellow]\n[italic]{SUBTITLE}[/italic]"
+    
+    # Create a panel
     panel = Panel(Align.center(banner_text), expand=True, border_style="green")
     console.print(panel)
+
     
 
 def save_results(results, output_file, output_format):

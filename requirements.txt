@@ -9,3 +9,4 @@ python-docx
 spacy-lookups-data
 rich
 typer
+pyfiglet
