@@ -124,6 +124,9 @@ Example of a JSON training file:
 ]
 ```
 
-💡 Expandable: You can always add more training files to `/data/` (e.g., `train_data_24.json`, `train_data_25.jso`n) to improve model performance. The training script automatically loads **all JSON files** in the folder, so your model evolves as your dataset grows.
+**💡 Key Points:**
 
-This ensures that AI IOC Hunter **learns from real-world threat examples**, improves detection accuracy, and adapts to new types of IOCs.
+- **text**: Contains the raw log or text snippet.
+- **entities**: List of `[start, end, label]` triples, where `start` and `end` are character offsets and `label` is the entity type (e.g., `IP`, `DOMAIN`, `URL`, `EMAIL`, `HASH`).
+- **Expandable Dataset**: Add more JSON files to `/data/` (e.g., `train_data_24.json`, `train_data_25.json`) to improve model performance. The training script automatically loads **all JSON files**, so the model evolves as the dataset grows.
+- **Adaptive Learning**: This structure allows AI IOC Hunter to learn from real-world threat examples, improving detection accuracy and adapting to new types of IOCs.
