@@ -139,7 +139,7 @@ Example of a JSON training file:
 - **Expandable Dataset**: Add more JSON files to `/data/` (e.g., `train_data_24.json`, `train_data_25.json`) to improve model performance. The training script automatically loads **all JSON files**, so the model evolves as the dataset grows.
 - **Adaptive Learning**: This structure allows AI IOC Hunter to learn from real-world threat examples, improving detection accuracy and adapting to new types of IOCs.
 
-## 🧪 3. Hybrid Detection (AI + Regex Rules)
+### 🧪 3. Hybrid Detection (AI + Regex Rules)
 
 IOC Hunter uses a **dual‑layer detection pipeline**:
 
