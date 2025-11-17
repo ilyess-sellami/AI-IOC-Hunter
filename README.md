@@ -201,4 +201,4 @@ python train_model.py
 - Labels: `IP`, `DOMAIN`, `URL`, `HASH`, `EMAIL`
 - Uses **spaCy NER** and supports adding more JSON training files
 
-|  Make sure your training examples are clean and properly aligned to avoid errors.
+Make sure your training examples are clean and properly aligned to avoid errors.
