@@ -173,6 +173,7 @@ The CLI automatically extracts readable text from:
 | `.docx`                                                     | python-docx                               |
 | `.txt`, `.log`, `.cfg`, `.ini`                              | direct read                               |
 | `.py`, `.js`, `.php`, `.cpp`, `.json`, `.yml`, `.xml`, etc. | code‑safe text parsing                    |
+| `.exe`, `.bin`, `.dat`, etc.                                | Binary files decoded with `chardet`.      |
 
 You can point the tool at any file:
 
@@ -182,13 +183,7 @@ python main.py incident_report.pdf
 
 ### 📑 5. Smart Output Export
 
-The results can be exported in multiple formats:
-
-- **JSON** (structured IOC objects)
-- **CSV** (easy import to SIEMs / Excel)
-- **TXT** (clean text list)
-
-Example:
+Export results in **JSON**, **CSV**, or **TXT**:
 
 ```bash
 python main.py /path/to/files -o results.csv -f csv
@@ -209,3 +204,11 @@ python train_model.py
 - Uses **spaCy NER** and supports adding more JSON training files
 
 Make sure your training examples are clean and properly aligned to avoid errors.
+
+---
+
+## 🏁 Conclusion
+
+**AI IOC Hunter** is a **powerful**, **extensible**, and **adaptive** tool for cybersecurity analysts and SOC teams. With **AI-driven NER**, **regex validation**, and support for multiple file types, it simplifies the process of detecting and extracting Indicators of Compromise.
+
+It is **fully expandable**, allowing you to continuously improve detection by adding new training data, and integrates seamlessly into automated pipelines or manual analysis workflows.
