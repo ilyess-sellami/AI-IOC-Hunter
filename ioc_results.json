@@ -1,37 +1,100 @@
 {
-    "example.txt": {
+    "example.docx": {
+        "HASH": [
+            "a54d88e06612d820bc3be72877c74f257b561b19"
+        ],
+        "EMAIL": [
+            "scammer@fake.com"
+        ],
         "IP": [
-            "198.51.100.23",
+            "203.0.113.50"
+        ],
+        "DOMAIN": [
+            "phishing-site.net",
+            "fake.com"
+        ]
+    },
+    "example.log": {
+        "IP": [
             "203.0.113.50",
-            "192.168.1.100"
+            "198.51.100.23",
+            "192.168.1.101"
+        ],
+        "HASH": [
+            "e99a18c428cb38d5f260853678922e03",
+            "a54d88e06612d820bc3be72877c74f257b561b19"
+        ],
+        "DOMAIN": [
+            "malware.exe",
+            "phishing-site.net",
+            "suspicious.co",
+            "evil.com",
+            "badfile.example.net",
+            "malicious.org",
+            "fake.com"
+        ],
+        "EMAIL": [
+            "attacker@malicious.org",
+            "scammer@fake.com"
+        ],
+        "URL": [
+            "http://badfile.example.net/malware.exe",
+            "hxxp://suspicious.co/download"
+        ]
+    },
+    "example.txt": {
+        "HASH": [
+            "9f86d081884c7d659a2feaa0c55ad015",
+            "e99a18c428cb38d5f260853678922e03",
+            "a54d88e06612d820bc3be72877c74f257b561b19"
+        ],
+        "DOMAIN": [
+            "malware.exe",
+            "phishing-site.net",
+            "compromised.example.org",
+            "evil.com",
+            "badfile.example.net",
+            "malicious.org",
+            ".",
+            "fake.com",
+            "bad.example.org",
+            "example.com"
         ],
         "EMAIL": [
             "attacker@malicious.org",
             "fraudster@example.com",
             "scammer@fake.com"
         ],
-        "DOMAIN": [
-            "bad.example.org",
-            "phishing-site.net",
-            "evil.com",
-            "malware.exe",
-            "compromised.example.org",
-            "badfile.example.net",
-            "example.com",
-            "a54d88e06612d820bc3be72877c74f257b561b19",
-            "malicious.org",
-            "fake.com"
-        ],
         "URL": [
             "https://phishing-site.net/login",
             "http://badfile.example.net/malware.exe",
             "hxxp://bad.example.org/stealinfo",
-            "http://evil.com/download/malware"
+            "http://evil.com/download/malware",
+            "192.168.1.100"
         ],
+        "IP": [
+            "203.0.113.50",
+            "198.51.100.23",
+            "192.168.1.100"
+        ]
+    },
+    "example.pdf": {
         "HASH": [
-            "a54d88e06612d820bc3be72877c74f257b561b19",
-            "e99a18c428cb38d5f260853678922e03",
-            "9f86d081884c7d659a2feaa0c55ad015"
+            "e99a18c428cb38d5f260853678922e03"
+        ],
+        "URL": [
+            "http://evil.com/malware.exe"
+        ],
+        "EMAIL": [
+            "attacker@malicious.org"
+        ],
+        "IP": [
+            "192.168.1.101"
+        ],
+        "DOMAIN": [
+            "evil.com",
+            "malware.exe",
+            "malicious.org"
         ]
     }
 }

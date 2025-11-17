@@ -42,6 +42,7 @@ def extract_iocs_from_text(text):
     doc = nlp(text)
     for ent in doc.ents:
         iocs.setdefault(ent.label_, []).append(ent.text)
+    print(f"AI extracted entities: {iocs}")
 
     # ---------- Regex extraction ----------
     for label, pattern in regex_patterns.items():

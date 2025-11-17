@@ -4,5 +4,6 @@ pandas
 scikit-learn
 torch
 PyPDF2
+chardet
 python-docx
 spacy-lookups-data
