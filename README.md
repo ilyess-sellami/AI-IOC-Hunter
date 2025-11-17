@@ -154,3 +154,51 @@ AI → Regex Validation → Final IOC List
 ```
 
 The combination gives **high recall + high precision**.
+
+
+### 📂 4. Multi‑Format File Analysis
+
+The CLI automatically extracts readable text from:
+
+| File Type                                                   | Method                                    |
+| ----------------------------------------------------------- | ----------------------------------------- |
+| `.pdf`                                                      | PyPDF2 text extraction                    |
+| `.docx`                                                     | python-docx                               |
+| `.txt`, `.log`, `.cfg`, `.ini`                              | direct read                               |
+| `.py`, `.js`, `.php`, `.cpp`, `.json`, `.yml`, `.xml`, etc. | code‑safe text parsing                    |
+
+You can point the tool at any file:
+
+```bash
+python main.py incident_report.pdf
+```
+
+### 📑 5. Smart Output Export
+
+The results can be exported in multiple formats:
+
+- **JSON** (structured IOC objects)
+- **CSV** (easy import to SIEMs / Excel)
+- **TXT** (clean text list)
+
+Example:
+
+```bash
+python main.py /path/to/files -o results.csv -f csv
+```
+
+---
+
+## 💾 Training the Model
+
+If you want to **retrain or improve the model**:
+
+```bash
+python train_model.py
+```
+
+- Training data is stored in `data/*.json`
+- Labels: `IP`, `DOMAIN`, `URL`, `HASH`, `EMAIL`
+- Uses **spaCy NER** and supports adding more JSON training files
+
+|  Make sure your training examples are clean and properly aligned to avoid errors.
