@@ -1,0 +1,1422 @@
+[
+    {
+        "text": "Suspicious IP 16.193.4.227 contacted malicious.info",
+        "entities": [
+            [
+                14,
+                26,
+                "IP"
+            ],
+            [
+                37,
+                51,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Emails used: phisher92@sneaky-60.com, service22@stealinfo.ru in phishing campaign",
+        "entities": [
+            [
+                13,
+                36,
+                "EMAIL"
+            ],
+            [
+                38,
+                60,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 123.237.164.67 to domain compromised-72.ru attempted brute force",
+        "entities": [
+            [
+                15,
+                29,
+                "IP"
+            ],
+            [
+                40,
+                57,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain trickydomain-5.org used for credential harvesting",
+        "entities": [
+            [
+                16,
+                34,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Downloaded malware hash 861d6bf8d9fc80080fa4ffe07fd74c31e1f45104327d9891f631a4229df88aff found in attachment",
+        "entities": [
+            [
+                24,
+                88,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "APT report mentions compromised-32.ru and file hash 1eeade56b0fbb29885055f16bb0a2316c4d8c5f0caef5ac30920b0a79c09cde6; Phishing email received from scammer28@stealinfo-91.org",
+        "entities": [
+            [
+                20,
+                37,
+                "DOMAIN"
+            ],
+            [
+                52,
+                116,
+                "HASH"
+            ],
+            [
+                147,
+                173,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from fraudster15@badfile.ru",
+        "entities": [
+            [
+                29,
+                51,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 14.58.45.30 -> http://malicious-49.net/login?id=732 reported by IDS",
+        "entities": [
+            [
+                5,
+                16,
+                "IP"
+            ],
+            [
+                20,
+                56,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from support85@sneaky-98.io",
+        "entities": [
+            [
+                29,
+                51,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "User clicked link https://badfile-5.io/payload from email service2@suspicious-23.co",
+        "entities": [
+            [
+                18,
+                46,
+                "URL"
+            ],
+            [
+                58,
+                83,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious activity from 192.168.1.6 targeting admin.suspicious.biz; Obfuscated URL seen: hxxp://evil-74.org/download",
+        "entities": [
+            [
+                25,
+                36,
+                "IP"
+            ],
+            [
+                47,
+                67,
+                "DOMAIN"
+            ],
+            [
+                90,
+                117,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain danger.io used for credential harvesting",
+        "entities": [
+            [
+                16,
+                25,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Indicator: compromised-93{dot}net (dot replaced)",
+        "entities": [
+            [
+                11,
+                33,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 172.16.0.146 contacted phishing-89.com",
+        "entities": [
+            [
+                14,
+                26,
+                "IP"
+            ],
+            [
+                37,
+                52,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious URL http://stealinfo.co/payload hosted malware",
+        "entities": [
+            [
+                14,
+                41,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via info40@phishing.co for more info",
+        "entities": [
+            [
+                12,
+                30,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain evil.biz used for credential harvesting; Malicious file malware.exe downloaded from https://trickydomain-21.io/file.exe?id=713",
+        "entities": [
+            [
+                16,
+                24,
+                "DOMAIN"
+            ],
+            [
+                100,
+                142,
+                "URL"
+            ],
+            [
+                16,
+                24,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "APT report mentions malicious-56.com and file hash 1ee3d442fa13b1bda5698573c585537f129de287",
+        "entities": [
+            [
+                20,
+                36,
+                "DOMAIN"
+            ],
+            [
+                51,
+                91,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 205.62.19.54 contacted evil-95.io; Phishing email received from scammer58@danger.ru",
+        "entities": [
+            [
+                14,
+                26,
+                "IP"
+            ],
+            [
+                37,
+                47,
+                "DOMAIN"
+            ],
+            [
+                78,
+                97,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 192.168.1.25 to domain suspicious-47.net attempted brute force",
+        "entities": [
+            [
+                15,
+                27,
+                "IP"
+            ],
+            [
+                38,
+                55,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain malicious.ru used for credential harvesting",
+        "entities": [
+            [
+                16,
+                28,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Downloaded malware hash 78d1b814cb3529306fd0aa7f5587729a found in attachment",
+        "entities": [
+            [
+                24,
+                56,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "User clicked link http://danger.biz/steal?id=241 from email victim3@evil-8.info; Suspicious IP 172.102.206.41 contacted stealinfo-33.info",
+        "entities": [
+            [
+                18,
+                48,
+                "URL"
+            ],
+            [
+                60,
+                79,
+                "EMAIL"
+            ],
+            [
+                95,
+                109,
+                "IP"
+            ],
+            [
+                120,
+                137,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 85.12.34.204 -> https://malicious-7.ru/download reported by IDS",
+        "entities": [
+            [
+                5,
+                17,
+                "IP"
+            ],
+            [
+                21,
+                52,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from phisher70@sneaky-9.com; Emails used: phisher70@sneaky-9.com, support32@suspicious.biz in phishing campaign",
+        "entities": [
+            [
+                29,
+                51,
+                "EMAIL"
+            ],
+            [
+                29,
+                51,
+                "EMAIL"
+            ],
+            [
+                90,
+                114,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 192.168.1.166 to domain stealinfo-51.io attempted brute force; Suspicious activity from 192.168.1.166 targeting admin.stealinfo-51.io",
+        "entities": [
+            [
+                15,
+                28,
+                "IP"
+            ],
+            [
+                39,
+                54,
+                "DOMAIN"
+            ],
+            [
+                15,
+                28,
+                "IP"
+            ],
+            [
+                127,
+                148,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Downloaded malware hash 8d763d76de093b99211f47f03d8ac2f7ea08b8fdc7bfa2dc158edc8a3ac623ef found in attachment",
+        "entities": [
+            [
+                24,
+                88,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious URL https://compromised.ru/payload hosted malware",
+        "entities": [
+            [
+                14,
+                44,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 172.16.0.108 to domain stealinfo.org attempted brute force; Suspicious IP 172.16.0.108 contacted stealinfo.org",
+        "entities": [
+            [
+                15,
+                27,
+                "IP"
+            ],
+            [
+                38,
+                51,
+                "DOMAIN"
+            ],
+            [
+                15,
+                27,
+                "IP"
+            ],
+            [
+                38,
+                51,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "User clicked link http://malicious-39.net/login from email victim87@trickydomain.info",
+        "entities": [
+            [
+                18,
+                47,
+                "URL"
+            ],
+            [
+                59,
+                85,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious activity from 101.244.25.69 targeting admin.evil-76.io",
+        "entities": [
+            [
+                25,
+                38,
+                "IP"
+            ],
+            [
+                49,
+                65,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious URL https://malicious-75.net/payload?id=665 hosted malware",
+        "entities": [
+            [
+                14,
+                53,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Multiple IOCs: IP 192.168.1.177, domain sneaky-29.info, hash d86f3b7366127a283ec8ae4d6ef5172ea1261b7e",
+        "entities": [
+            [
+                18,
+                31,
+                "IP"
+            ],
+            [
+                40,
+                54,
+                "DOMAIN"
+            ],
+            [
+                61,
+                101,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Emails used: fraudster97@sneaky.info, attacker80@malicious-12.net in phishing campaign",
+        "entities": [
+            [
+                13,
+                36,
+                "EMAIL"
+            ],
+            [
+                38,
+                65,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "User clicked link http://malicious.biz/suspicious.php from email info14@badfile-28.info",
+        "entities": [
+            [
+                18,
+                53,
+                "URL"
+            ],
+            [
+                65,
+                87,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 12.130.164.143 contacted sneaky-13.biz",
+        "entities": [
+            [
+                14,
+                28,
+                "IP"
+            ],
+            [
+                39,
+                52,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 72.154.253.38 contacted infected.info",
+        "entities": [
+            [
+                14,
+                27,
+                "IP"
+            ],
+            [
+                38,
+                51,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via phisher90@infected.info for more info",
+        "entities": [
+            [
+                12,
+                35,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Downloaded malware hash 9ce2ba68ed2c827d14f6627168363c4424bddefb9516b5dc9c7b1607417ed245 found in attachment",
+        "entities": [
+            [
+                24,
+                88,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from attacker7@evil-77.org",
+        "entities": [
+            [
+                29,
+                50,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Obfuscated URL seen: hxxp://trickydomain.com/download",
+        "entities": [
+            [
+                21,
+                53,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Obfuscated URL seen: hxxp://danger-88.info/download",
+        "entities": [
+            [
+                21,
+                51,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 10.0.0.203 -> https://evil-40.info/payload reported by IDS",
+        "entities": [
+            [
+                5,
+                15,
+                "IP"
+            ],
+            [
+                19,
+                47,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via attacker74 at stealinfo-40 dot io for more info",
+        "entities": [
+            [
+                12,
+                45,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious activity from 172.16.0.63 targeting admin.infected-52.org",
+        "entities": [
+            [
+                25,
+                36,
+                "IP"
+            ],
+            [
+                47,
+                68,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 75.27.55.102 to domain suspicious-43.io attempted brute force",
+        "entities": [
+            [
+                15,
+                27,
+                "IP"
+            ],
+            [
+                38,
+                54,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from admin52@phishing-98.net; Log: 10.0.0.48 -> https://infected-24.info/wp-content/malware.zip reported by IDS",
+        "entities": [
+            [
+                29,
+                52,
+                "EMAIL"
+            ],
+            [
+                59,
+                68,
+                "IP"
+            ],
+            [
+                72,
+                119,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Hashes observed: b021941756b85f52f3ed14252bb72353, 84e0cde0e839c886013f9fa06fc95abc61b240b6; Downloaded malware hash 2dc526baad9699e0cf58a28e72f7cedf found in attachment",
+        "entities": [
+            [
+                17,
+                49,
+                "HASH"
+            ],
+            [
+                51,
+                91,
+                "HASH"
+            ],
+            [
+                117,
+                149,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Multiple IOCs: IP 213.74.136.160, domain badfile.co, hash bdc6893c75f2225227b05c908da41de8",
+        "entities": [
+            [
+                18,
+                32,
+                "IP"
+            ],
+            [
+                41,
+                51,
+                "DOMAIN"
+            ],
+            [
+                58,
+                90,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious activity from 192.168.1.99 targeting admin.trickydomain-75.org",
+        "entities": [
+            [
+                25,
+                37,
+                "IP"
+            ],
+            [
+                48,
+                73,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from support62@trickydomain.ru",
+        "entities": [
+            [
+                29,
+                54,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious URL https://stealinfo.co/login?id=191 hosted malware",
+        "entities": [
+            [
+                14,
+                47,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Hashes observed: f2e018f11ded9a6f0fb0fedbdaf1faac, 6876dba96dac3056c3b1341cb927e04374dba0a8",
+        "entities": [
+            [
+                17,
+                49,
+                "HASH"
+            ],
+            [
+                51,
+                91,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Hashes observed: a52468c4ab77672cca653cc13a84d629, ba507703e66f68a17d99c5a57f58c86a1eace758",
+        "entities": [
+            [
+                17,
+                49,
+                "HASH"
+            ],
+            [
+                51,
+                91,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious activity from 48.194.7.78 targeting admin.malicious.biz",
+        "entities": [
+            [
+                25,
+                36,
+                "IP"
+            ],
+            [
+                47,
+                66,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain stealinfo-47.biz used for credential harvesting",
+        "entities": [
+            [
+                16,
+                32,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious URL https://stealinfo.org/file.exe hosted malware",
+        "entities": [
+            [
+                14,
+                44,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 192.168.1.214 to domain sneaky-19.net attempted brute force",
+        "entities": [
+            [
+                15,
+                28,
+                "IP"
+            ],
+            [
+                39,
+                52,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Hashes observed: 72ffe94c8b252ed5359b47eaee59aabc, 61472b8f0e29ff42abc9ff281ce7c65a9cb5bcd5",
+        "entities": [
+            [
+                17,
+                49,
+                "HASH"
+            ],
+            [
+                51,
+                91,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 207.55.44.81 contacted phishing.com",
+        "entities": [
+            [
+                14,
+                26,
+                "IP"
+            ],
+            [
+                37,
+                49,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Indicator: stealinfo{dot}io (dot replaced)",
+        "entities": [
+            [
+                11,
+                27,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from info76@compromised.com; Downloaded malware hash 2c3431e87075e229d7ce903c0cb24be561fc8305 found in attachment",
+        "entities": [
+            [
+                29,
+                51,
+                "EMAIL"
+            ],
+            [
+                77,
+                117,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "APT report mentions badfile.info and file hash b627b78012303f41636eb44b882b65845c56f0fab44db93ad1dcd86dae4386bf",
+        "entities": [
+            [
+                20,
+                32,
+                "DOMAIN"
+            ],
+            [
+                47,
+                111,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 159.189.119.81 to domain infected.org attempted brute force",
+        "entities": [
+            [
+                15,
+                29,
+                "IP"
+            ],
+            [
+                40,
+                52,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 47.224.160.201 contacted trickydomain.com",
+        "entities": [
+            [
+                14,
+                28,
+                "IP"
+            ],
+            [
+                39,
+                55,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 180.25.40.82 to domain malicious.org attempted brute force",
+        "entities": [
+            [
+                15,
+                27,
+                "IP"
+            ],
+            [
+                38,
+                51,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Indicator: suspicious-88{dot}ru (dot replaced)",
+        "entities": [
+            [
+                11,
+                31,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via phisher17@stealinfo.biz for more info; Obfuscated URL seen: hxxp://evil.ru/download",
+        "entities": [
+            [
+                12,
+                35,
+                "EMAIL"
+            ],
+            [
+                72,
+                95,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Indicator: badfile{dot}com (dot replaced)",
+        "entities": [
+            [
+                11,
+                26,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Suspicious IP 172.16.0.160 contacted evil.com",
+        "entities": [
+            [
+                14,
+                26,
+                "IP"
+            ],
+            [
+                37,
+                45,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Emails used: attacker28@danger-6.net, scammer70@infected.io in phishing campaign",
+        "entities": [
+            [
+                13,
+                36,
+                "EMAIL"
+            ],
+            [
+                38,
+                59,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via fraudster70@compromised.biz for more info",
+        "entities": [
+            [
+                12,
+                39,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via info63 at trickydomain dot com for more info; Indicator: danger{dot}com (dot replaced)",
+        "entities": [
+            [
+                12,
+                42,
+                "EMAIL"
+            ],
+            [
+                69,
+                83,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 141.30.37.140 -> https://danger-92.ru/download reported by IDS",
+        "entities": [
+            [
+                5,
+                18,
+                "IP"
+            ],
+            [
+                22,
+                51,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Multiple IOCs: IP 178.64.111.170, domain badfile-73.co, hash 51aa6986f44a0f5ac90642e6f3d82fbfe1134dcabb7b51a721aedc6681ea3484",
+        "entities": [
+            [
+                18,
+                32,
+                "IP"
+            ],
+            [
+                41,
+                54,
+                "DOMAIN"
+            ],
+            [
+                61,
+                125,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "APT report mentions trickydomain.org and file hash 73f6b117fae855fc288aea8dc5f1af07fdfc5d9a5d7dd7054c489fd6bb4190c6",
+        "entities": [
+            [
+                20,
+                36,
+                "DOMAIN"
+            ],
+            [
+                51,
+                115,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain trickydomain.co used for credential harvesting",
+        "entities": [
+            [
+                16,
+                31,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Contact via admin7@suspicious.org for more info",
+        "entities": [
+            [
+                12,
+                33,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious file payload.bin downloaded from http://evil.co/wp-content/malware.zip",
+        "entities": [
+            [
+                43,
+                80,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain phishing-8.net used for credential harvesting",
+        "entities": [
+            [
+                16,
+                30,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Emails used: admin84@badfile.net, scammer54@compromised.com in phishing campaign",
+        "entities": [
+            [
+                13,
+                32,
+                "EMAIL"
+            ],
+            [
+                34,
+                59,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Observed domain evil.io used for credential harvesting",
+        "entities": [
+            [
+                16,
+                23,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from fraudster29@phishing-17.ru",
+        "entities": [
+            [
+                29,
+                55,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Indicator: phishing{dot}io (dot replaced)",
+        "entities": [
+            [
+                11,
+                26,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Indicator: evil{dot}net (dot replaced)",
+        "entities": [
+            [
+                11,
+                23,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 10.0.0.65 -> https://suspicious-8.io/payload reported by IDS",
+        "entities": [
+            [
+                5,
+                14,
+                "IP"
+            ],
+            [
+                18,
+                49,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Hashes observed: d1ecafc7c936bf0da212c66fec0d79ab, 565768b616ec655b3323b876030175a36f80ef6e",
+        "entities": [
+            [
+                17,
+                49,
+                "HASH"
+            ],
+            [
+                51,
+                91,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 172.16.0.248 -> https://badfile.biz/file.exe reported by IDS",
+        "entities": [
+            [
+                5,
+                17,
+                "IP"
+            ],
+            [
+                21,
+                49,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Malicious URL http://sneaky.ru/wp-content/malware.zip hosted malware",
+        "entities": [
+            [
+                14,
+                53,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "Log: 211.43.194.68 -> http://phishing-93.ru/file.exe reported by IDS; Multiple IOCs: IP 211.43.194.68, domain badfile-26.io, hash 11120b1cc596a5258629486240517592666c702e",
+        "entities": [
+            [
+                5,
+                18,
+                "IP"
+            ],
+            [
+                22,
+                52,
+                "URL"
+            ],
+            [
+                5,
+                18,
+                "IP"
+            ],
+            [
+                110,
+                123,
+                "DOMAIN"
+            ],
+            [
+                130,
+                170,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Downloaded malware hash 5aa43c4f6e456638fd1a82e15d2f6d3b201f7d34 found in attachment",
+        "entities": [
+            [
+                24,
+                64,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "Obfuscated URL seen: hxxp://evil-58.io/download",
+        "entities": [
+            [
+                21,
+                47,
+                "URL"
+            ]
+        ]
+    },
+    {
+        "text": "APT report mentions suspicious.net and file hash 5fedc58c24f052f78229bd90fa74e1888e764700",
+        "entities": [
+            [
+                20,
+                34,
+                "DOMAIN"
+            ],
+            [
+                49,
+                89,
+                "HASH"
+            ]
+        ]
+    },
+    {
+        "text": "APT report mentions evil.biz and file hash e9fec3f480d7a31d06c9fb0d0655e6fa; Emails used: fraudster57@sneaky.biz, support84@sneaky.com in phishing campaign",
+        "entities": [
+            [
+                20,
+                28,
+                "DOMAIN"
+            ],
+            [
+                43,
+                75,
+                "HASH"
+            ],
+            [
+                90,
+                112,
+                "EMAIL"
+            ],
+            [
+                114,
+                134,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 125.126.176.33 to domain compromised-79.io attempted brute force",
+        "entities": [
+            [
+                15,
+                29,
+                "IP"
+            ],
+            [
+                40,
+                57,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Multiple IOCs: IP 198.226.116.180, domain trickydomain.com, hash 59151e177c5b96cb8bf69df06bda9de6d51fc972; Observed domain trickydomain.com used for credential harvesting",
+        "entities": [
+            [
+                18,
+                33,
+                "IP"
+            ],
+            [
+                42,
+                58,
+                "DOMAIN"
+            ],
+            [
+                65,
+                105,
+                "HASH"
+            ],
+            [
+                42,
+                58,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Emails used: victim26@compromised-57.org, fraudster27@badfile.org in phishing campaign",
+        "entities": [
+            [
+                13,
+                40,
+                "EMAIL"
+            ],
+            [
+                42,
+                65,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 163.54.149.65 to domain phishing.org attempted brute force",
+        "entities": [
+            [
+                15,
+                28,
+                "IP"
+            ],
+            [
+                39,
+                51,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Attack from IP 15.193.93.211 to domain trickydomain.biz attempted brute force",
+        "entities": [
+            [
+                15,
+                28,
+                "IP"
+            ],
+            [
+                39,
+                55,
+                "DOMAIN"
+            ]
+        ]
+    },
+    {
+        "text": "Phishing email received from phisher82@stealinfo.net",
+        "entities": [
+            [
+                29,
+                52,
+                "EMAIL"
+            ]
+        ]
+    }
+]

@@ -1,43 +1,90 @@
 import os
 import spacy
 import re
-from utils import read_file
 import json
+from utils import read_file
 
-# --- Step 1: Load trained model ---
+# ------------------------------------------------------
+# 1. Load trained AI model
+# ------------------------------------------------------
 model_path = "models/ioc_ner_model"
-nlp = spacy.load(model_path, exclude=["lemmatizer"])  # exclude lemmatizer to avoid lookup errors
+nlp = spacy.load(model_path, exclude=["lemmatizer"])  # avoid lookup-table errors
 
-# --- Step 2: Regex patterns for IOCs ---
+
+# ------------------------------------------------------
+# 2. Strong regex patterns
+# ------------------------------------------------------
 regex_patterns = {
+    # Valid IPv4 format (does NOT fully validate 0–255, but cleaner)
     "IP": r"\b(?:\d{1,3}\.){3}\d{1,3}\b",
+
+    # Email
     "EMAIL": r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",
-    "URL": r"https?://[^\s]+|hxxp://[^\s]+",
-    "HASH": r"\b[a-fA-F0-9]{32,64}\b"  # MD5/SHA1/SHA256
+
+    # URL (http + hxxp + https)
+    "URL": r"(?:https?|hxxp)://[^\s]+",
+
+    # Hashes (MD5, SHA1, SHA256)
+    "HASH": r"\b[a-fA-F0-9]{32,64}\b",
+
+    # Domain (NO http, NO emails, NO IPs)
+    "DOMAIN": r"\b(?!(?:\d{1,3}\.){3}\d{1,3})(?![A-Za-z0-9._%+-]+@)[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"
 }
 
-# --- Step 3: Function to extract IOCs ---
+
+# ------------------------------------------------------
+# 3. Extractor function (AI + regex + cleanup)
+# ------------------------------------------------------
 def extract_iocs_from_text(text):
     iocs = {}
 
-    # --- AI-based extraction ---
+    # ---------- AI extraction ----------
     doc = nlp(text)
     for ent in doc.ents:
         iocs.setdefault(ent.label_, []).append(ent.text)
 
-    # --- Regex-based extraction ---
+    # ---------- Regex extraction ----------
     for label, pattern in regex_patterns.items():
         matches = re.findall(pattern, text)
         if matches:
             iocs.setdefault(label, []).extend(matches)
 
-    # --- Remove duplicates ---
-    for key in iocs:
-        iocs[key] = list(set(iocs[key]))
+    # ---------- Cleanup results ----------
+    cleaned_iocs = {}
 
-    return iocs
+    for key, values in iocs.items():
+        unique_vals = set(v.strip() for v in values)
 
-# --- Step 4: Process all files in folder ---
+        # Cleanup for each IOC type
+        if key == "IP":
+            cleaned_iocs[key] = [
+                v for v in unique_vals
+                if re.fullmatch(r"(?:\d{1,3}\.){3}\d{1,3}", v)
+                and not any(len(p) > 3 for p in v.split("."))  # avoid crazy numbers
+            ]
+
+        elif key == "DOMAIN":
+            cleaned_iocs[key] = [
+                v for v in unique_vals
+                if v not in iocs.get("EMAIL", [])
+                and not re.match(r"(?:\d{1,3}\.){3}\d{1,3}", v)
+                and not v.startswith("http")
+            ]
+
+        elif key == "HASH":
+            cleaned_iocs[key] = [
+                v for v in unique_vals if len(v) in (32, 40, 64)
+            ]
+
+        else:
+            cleaned_iocs[key] = list(unique_vals)
+
+    return cleaned_iocs
+
+
+# ------------------------------------------------------
+# 4. Process all files in the folder
+# ------------------------------------------------------
 folder_path = "files_to_process/"
 all_iocs = {}
 
@@ -45,12 +92,15 @@ for file_name in os.listdir(folder_path):
     file_path = os.path.join(folder_path, file_name)
     try:
         text = read_file(file_path)
-        iocs = extract_iocs_from_text(text)
-        all_iocs[file_name] = iocs
+        extracted = extract_iocs_from_text(text)
+        all_iocs[file_name] = extracted
     except Exception as e:
         print(f"Error processing {file_name}: {e}")
 
-# --- Step 5: Output results ---
+
+# ------------------------------------------------------
+# 5. Save extracted IOCs
+# ------------------------------------------------------
 output_file = "ioc_results.json"
 with open(output_file, "w") as f:
     json.dump(all_iocs, f, indent=4)
