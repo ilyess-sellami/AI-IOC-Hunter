@@ -2,7 +2,7 @@
 
 ![AI IOC Hunter](/images/Banner-Image.png)
 
-**AI IOC Hunter** is a Python-based command-line tool for extracting **Indicators of Compromise (IOCs)** such as IPs, domains, URLs, hashes, and emails from files or directories. The tool combines **AI-powered NER (spaCy)** and **regex patterns** to provide accurate IOC detection.  
+**AI IOC Hunter** is a Python-based command-line tool for extracting **[Indicators of Compromise (IOCs)](https://www.fortinet.com/resources/cyberglossary/indicators-of-compromise)** such as IPs, domains, URLs, hashes, and emails from files or directories. The tool combines **[AI-powered NER (spaCy)](https://spacy.io/)** and **[regex patterns](https://en.wikipedia.org/wiki/Regular_expression)** to provide accurate IOC detection.  
 
 ---
 
@@ -132,3 +132,25 @@ Example of a JSON training file:
 - **entities**: List of `[start, end, label]` triples, where `start` and `end` are character offsets and `label` is the entity type (e.g., `IP`, `DOMAIN`, `URL`, `EMAIL`, `HASH`).
 - **Expandable Dataset**: Add more JSON files to `/data/` (e.g., `train_data_24.json`, `train_data_25.json`) to improve model performance. The training script automatically loads **all JSON files**, so the model evolves as the dataset grows.
 - **Adaptive Learning**: This structure allows AI IOC Hunter to learn from real-world threat examples, improving detection accuracy and adapting to new types of IOCs.
+
+## 🧪 3. Hybrid Detection (AI + Regex Rules)
+
+IOC Hunter uses a **dual‑layer detection pipeline**:
+
+1. **AI Layer (NER Model)**
+
+    - Understands context
+    - Detects IOCs even when obfuscated or written in unusual formats
+    - Survives noisy text (PDF extra whitespace, malformed logs, etc.)
+
+2. **Regex Layer (Rule-Based Engine)**
+
+    - Ensures no classic IOC format is missed
+    - Validates/corrects AI‑detected patterns
+    - Adds coverage for edge cases
+
+```sql
+AI → Regex Validation → Final IOC List
+```
+
+The combination gives **high recall + high precision**.
