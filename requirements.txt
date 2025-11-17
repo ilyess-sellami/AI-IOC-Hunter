@@ -7,3 +7,5 @@ PyPDF2
 chardet
 python-docx
 spacy-lookups-data
+rich
+typer

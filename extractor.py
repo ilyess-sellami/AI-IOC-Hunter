@@ -1,8 +1,5 @@
-import os
 import spacy
 import re
-import json
-from utils import read_file
 
 # ------------------------------------------------------
 # 1. Load trained AI model
@@ -81,29 +78,3 @@ def extract_iocs_from_text(text):
             cleaned_iocs[key] = list(unique_vals)
 
     return cleaned_iocs
-
-
-# ------------------------------------------------------
-# 4. Process all files in the folder
-# ------------------------------------------------------
-folder_path = "files_to_process/"
-all_iocs = {}
-
-for file_name in os.listdir(folder_path):
-    file_path = os.path.join(folder_path, file_name)
-    try:
-        text = read_file(file_path)
-        extracted = extract_iocs_from_text(text)
-        all_iocs[file_name] = extracted
-    except Exception as e:
-        print(f"Error processing {file_name}: {e}")
-
-
-# ------------------------------------------------------
-# 5. Save extracted IOCs
-# ------------------------------------------------------
-output_file = "ioc_results.json"
-with open(output_file, "w") as f:
-    json.dump(all_iocs, f, indent=4)
-
-print(f"IOC extraction completed. Results saved to {output_file}")
