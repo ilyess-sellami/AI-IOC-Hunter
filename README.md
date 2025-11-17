@@ -1,11 +1,11 @@
-# AI IOC Hunter
-
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen)](#)
 [![Issues](https://img.shields.io/badge/Issues-0-orange)](#)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-AI--IOC--Hunter-black?logo=github)](https://github.com/ilyess-sellami/AI-IOC-Hunter)
+
+# AI IOC Hunter - AI-Powered IOC Extractor
 
 ![AI IOC Hunter](/images/Banner-Image.png)
 
