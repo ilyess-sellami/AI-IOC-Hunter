@@ -1,4 +1,4 @@
-# 🔥 AI IOC Hunter
+# AI IOC Hunter
 
 ![AI IOC Hunter](/images/Banner-Image.png)
 
