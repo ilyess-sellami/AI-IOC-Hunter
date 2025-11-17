@@ -10,6 +10,9 @@ from rich.align import Align
 from extractor import extract_iocs_from_text
 from utils import read_file
 import pyfiglet
+import warnings
+
+warnings.filterwarnings("ignore")
 
 app = typer.Typer(help="🔥 AI IOC Hunter - Extract IOC indicators from files or directories.")
 console = Console()
