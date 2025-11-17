@@ -80,6 +80,8 @@ python main.py /path/to/files -o results.txt -f txt
 
 ### 🔍 1. AI Model (spaCy NER + Custom Fine‑Tuning)
 
+![AI Model (spaCy NER + Custom Fine‑Tuning)](/images/SpaCy-NER.png)
+
 The core of the tool is a **custom [spaCy Named Entity Recognition (NER) model](https://spacy.io/universe/project/video-spacys-ner-model)** trained specifically to detect cybersecurity IOCs.
 
 The model identifies entities such as:
