@@ -1,4 +1,6 @@
-# AI IOC Hunter - AI-Powered IOC Extractor
+# AI IOC Hunter
+
+**AI-Powered IOC Extractor**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
