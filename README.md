@@ -1,6 +1,7 @@
 # AI IOC Hunter
 
 **AI-Powered IOC Extractor**
+*Extract actionable IOCs from any file — IPs, domains, URLs, hashes, and more in seconds.*
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
