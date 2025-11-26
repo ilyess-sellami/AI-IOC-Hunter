@@ -10,6 +10,10 @@
 
 ![AI IOC Hunter](/images/Banner-Image.png)
 
+---
+
+## 🧩 About AI IOC Hunter
+
 **AI IOC Hunter** is a Python-based command-line tool for extracting **[Indicators of Compromise (IOCs)](https://www.fortinet.com/resources/cyberglossary/indicators-of-compromise)** such as IPs, domains, URLs, hashes, and emails from files or directories. The tool combines **[AI-powered NER (spaCy)](https://spacy.io/)** and **[regex patterns](https://en.wikipedia.org/wiki/Regular_expression)** to provide accurate IOC detection.  
 
 ---
