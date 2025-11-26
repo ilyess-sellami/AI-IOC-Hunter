@@ -9,6 +9,8 @@
 [![Issues](https://img.shields.io/badge/Issues-0-orange)](#)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-AI--IOC--Hunter-black?logo=github)](https://github.com/ilyess-sellami/AI-IOC-Hunter)
 
+---
+
 ![AI IOC Hunter](/images/Banner-Image.png)
 
 ---
