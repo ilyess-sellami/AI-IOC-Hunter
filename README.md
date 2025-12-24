@@ -61,6 +61,8 @@ Make sure you have the trained model in `models/ioc_ner_model`. You can train it
 
 ## 🚀 Usage
 
+![AI-IOC-Hunter](/images/AI-IOC-Hunter.png)
+
 ### Scan a single file
 
 ```bash
